@@ -21,7 +21,6 @@ public class Demo {
             Thread.sleep(1000);
             library.borrowReadingObject("user3", Library.ReadingType.TEXTBOOK, "Java");
 
-
             Thread.sleep(8000);
             library.returnReadingObject("user4", Library.ReadingType.BOOK, "Na iztok ot raya", "2010");
             library.returnReadingObject("user2", Library.ReadingType.TEXTBOOK, "Istoriya na UK");
@@ -38,9 +37,7 @@ public class Demo {
         library.returnReadingObject("user1", Library.ReadingType.BOOK, "The Colour of Magic", "2018");
         library.returnReadingObject("user3", Library.ReadingType.TEXTBOOK, "Java");
         library.returnReadingObject("user4", Library.ReadingType.BOOK, "Na iztok ot raya", "2010");
-
     }
-
 
     private static Library createLibrary() {
         Book book1 = new Book("The Colour of Magic", "Siela", Book.Genre.FANTASY, "Terry Pratchett", "2010");
