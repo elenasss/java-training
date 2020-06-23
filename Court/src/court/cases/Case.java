@@ -40,7 +40,7 @@ public abstract class Case {
 
         try {
             String caseName = "case" + caseCount++;
-            output = new File(caseName + ".txt");
+            output = new File("D:\\Elena\\Java course\\FullJavaCourse\\Excercises\\Java-Training\\" + caseName + ".txt");
             output.createNewFile();
         } catch (IOException e) {
             System.out.println("The file was not created");
